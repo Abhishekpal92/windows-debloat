@@ -35,3 +35,9 @@
 - Shadow storage capped at 5 GB
 - C at 36.7 GB free, ~38.7 expected post-reboot (day started at 4.8 GB)
 - Remaining manual steps: reboot; verify HDD copy then delete D:\MOVE-TO-EXTERNAL-AUG26; move locked D:\Jan 2026 after reboot
+
+## 2026-08-03 - External HDD copy verified
+- User Explorer-copied staging folder to F:\Abhishek Data\AUG2026 Backup\MOVE-TO-EXTERNAL-AUG26 (Seagate 3.7TB)
+- Verification caught 2869 missing files (~30 MB) - classic Explorer skips (hidden/long-path/tiny files)
+- Robocopy gap-fill: 3619 files copied, 0 FAILED -> 127799 files / 252.2 GB, exact match with D
+- D staging deletion: WAITING on marriage-folder Google Drive upload (reads from D) to finish first
