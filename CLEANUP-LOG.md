@@ -21,3 +21,10 @@
   - VirtualBox VMs moved - re-point VirtualBox if ever used again
   - D:\Jan 2026 (2.8 GB) locked by a process - move manually or after reboot
 - Result: C 34.1 GB free (was 4.8 at start of effort), D 30.3 free (will gain 252 GB after external transfer)
+
+## 2026-08-03 - Round 3: home git purge
+- Home-dir repo (C:\Users\abhis\.git): 15985 loose objects, ZERO commits/refs/stash = orphaned garbage
+- Backed up to D:\BACKUP-AUG26\home-git-objects (16008 files, 1.74 GB, 0 failed), then git prune --expire=now
+- +2.1 GB -> C at 36.2 GB free
+- Left alone: .claude\projects (chat-scribe source), hermes-agent (live install), daily-driver browser profiles
+- Offered admin paste: CompactOS + pagefile 6->4GB + shadowstorage 5GB cap (~5-8 GB more)
