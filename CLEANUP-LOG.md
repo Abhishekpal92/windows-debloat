@@ -28,3 +28,10 @@
 - +2.1 GB -> C at 36.2 GB free
 - Left alone: .claude\projects (chat-scribe source), hermes-agent (live install), daily-driver browser profiles
 - Offered admin paste: CompactOS + pagefile 6->4GB + shadowstorage 5GB cap (~5-8 GB more)
+
+## 2026-08-03 - Round 4: admin optimizations (user-run)
+- CompactOS: 36816 OS files compressed 1.4:1 -> +0.6 GB (install already lean post-ResetBase)
+- Pagefile: system-managed 6 GB -> fixed 4 GB (+2 GB at next reboot)
+- Shadow storage capped at 5 GB
+- C at 36.7 GB free, ~38.7 expected post-reboot (day started at 4.8 GB)
+- Remaining manual steps: reboot; verify HDD copy then delete D:\MOVE-TO-EXTERNAL-AUG26; move locked D:\Jan 2026 after reboot
